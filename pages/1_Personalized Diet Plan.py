@@ -120,7 +120,7 @@ def load_dataset(file_path):
     return pd.read_csv(file_path)
 
 # Loading datasets and caching them
-fat_data = load_dataset('archive/Fat_supply_Quantity_Data.csv')
+fat_data = load_dataset('archive/Fat_Supply_Quantity_Data.csv')
 protein_data = load_dataset('archive/Protein_Supply_Quantity_Data.csv')
 food_kcal_data = load_dataset('archive/Food_Supply_kcal_Data.csv')
 quantity_data = load_dataset('archive/Food_Supply_Quantity_kg_Data.csv')
