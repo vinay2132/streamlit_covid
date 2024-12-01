@@ -86,7 +86,7 @@ if submit_button:
         "Overweight" if bmi < 30 else 
         "Obese"
     )
-    st.write(f"**Your BMI:** {bmi} ({bmi_status})")
+    # st.write(f"**Your BMI:** {bmi} ({bmi_status})")
     
     # Filter data based on selected country
     country_data = data[data['Country'] == country]
