@@ -112,7 +112,7 @@ import openai
 from transformers import pipeline  
 # Hugging Face pipeline for weekly plan
 
-openai.api_key = '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'
+openai.api_key = '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'
 
 @st.cache_data
 def load_dataset(file_path):
